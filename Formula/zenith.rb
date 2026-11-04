@@ -1,25 +1,25 @@
 class Zenith < Formula
   desc "An architecture linter for monorepos"
   homepage "https://github.com/feds01/zenith"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/feds01/zenith/releases/download/v0.6.0/zenith-aarch64-apple-darwin.tar.xz"
-      sha256 "f7df1a4f04ce91fbb81e2e777676b51d10db2b3b842cc7d7c54d8e14edb36453"
+      url "https://github.com/feds01/zenith/releases/download/v0.7.0/zenith-aarch64-apple-darwin.tar.xz"
+      sha256 "52fcab94c11fa690f3aa7170e27ce8ca23e6c046e409f319e049eb0f17ea0d03"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feds01/zenith/releases/download/v0.6.0/zenith-x86_64-apple-darwin.tar.xz"
-      sha256 "9cf1b0d3372c169c9daef38c9519ae8395f8fd7d35fdf3b27443570699cef21e"
+      url "https://github.com/feds01/zenith/releases/download/v0.7.0/zenith-x86_64-apple-darwin.tar.xz"
+      sha256 "1f8efa840f92a752dad480bebd4b70fe359af2e546b31d46f25741b9492fdbe5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/feds01/zenith/releases/download/v0.6.0/zenith-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "75388f9e2dc241234773faf2899ef5f21966d2cb467bb8f6b6041a05b98c5617"
+      url "https://github.com/feds01/zenith/releases/download/v0.7.0/zenith-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "b2b476f81136ceca4dab395eaba489734439e1e6989d7f7b2da8b1f66675b2cc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feds01/zenith/releases/download/v0.6.0/zenith-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "66eebf9f14d350950378ebf7e62713e9f27d16ae8a0ea0d4e1e2f0ca75af01c2"
+      url "https://github.com/feds01/zenith/releases/download/v0.7.0/zenith-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "34f0dd4014c85295ef41b6302576d8497d3b479935bbeb4cc343519fa9a9f243"
     end
   end
   license "MIT"
